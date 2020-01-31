@@ -54,7 +54,7 @@ export function fetchNextTodayCard (categoryId) {
                     console.log('Looks like the response wasn\'t perfect, got status', response.status)
                 }
             }, function (e) {
-                console.log('Fetch failed!', e)
+                console.log('Fetch failed!', e) 
             })
         }else{
             return fetch(`${config.url.api}card/getnexttodaycard`, authHeader(localStorage.getItem('token'))).then(function (response) {

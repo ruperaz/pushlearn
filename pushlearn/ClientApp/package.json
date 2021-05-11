@@ -9,7 +9,7 @@
     "classnames": "^2.2.6",
     "immutability-helper": "3.0.0",
     "jwt-decode": "^2.2.0",
-    "lodash": "4.17.11",
+    "lodash": "4.17.21",
     "moment": "2.24.0",
     "notistack": "^0.8.5",
     "prop-types": "^15.7.2",
